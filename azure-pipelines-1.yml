@@ -14,5 +14,4 @@ variables:
 
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
-  dotnet-version: 'default'
   displayName: 'dotnet build $(buildConfiguration)'
